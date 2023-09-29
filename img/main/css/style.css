@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter+Tight:wght@300&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@400;500&family=Roboto&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-primaria: rgba(255, 194, 52);
+    --cor-secundaria: rgba(65, 31, 9);
+    --cor-tercearia: rgba(223, 28, 28);
+    --espacamento: 0px 35px;
+    font-size: 16px;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espacamento);
+}
+
+.cabecalho-menu ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+.cabecalho-menu ul li a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.cabecalho-menu ul li a:hover {
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: var(--cor-primaria);
+    height: 580px;
+    background-position: center;
+    background-size: cover;
+    padding: var(--espacamento);
+    width: 100%;
+}
+
+.principal-conteudo h1 {
+    font-size: 90px;
+    color: var(--cor-secundaria);
+    padding: 120px;
+}
+
+.principal-conteudo h2 {
+    font-size: 60px;
+    color: var(--cor-secundaria);
+}
+
+.testinho {
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 120px;
+}
+
+#imglanche {
+    position: absolute;
+    left: 55%;
+    top: 10%
+}
+
+#imgpreco {
+    position: absolute;
+    left: 55%;
+    top: 45%
+}
+
+section {
+    padding: var(--espacamento);
+}
+
+#section-hamburgers {
+    background-color: white;
+    padding: 80px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo-tabelinha{
+    text-align: center;
+    color: var(--cor-secundaria);
+    
+}
+
+.titulo-tabelinha h3{
+    font-size: 20px;
+}
+
+.titulo-tabelinha h1{
+    font-size: 40px;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-secundaria);
+}
+
+.container-title h2 {
+    font-size: 50px;
+}
+
+.container-title p {
+    text-align: center;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-secundaria);
+}
+
+.card figure img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 21px;
+}
+
+.card p {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-price {
+    background-color: var(--cor-primaria);
+}
+
+.botao {
+    border: solid 10px red;
+    background-color: red;
+    color: white;
+}
+
+.botao-tabela {
+    border: solid 10px red;
+    background-color: red;
+    color: white;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-form fieldset {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-form fieldset>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="data"],
+input[type="time"],
+input[type="people"],
+select,
+textarea {
+    padding: 10px;
+    border: none;
+}
+
+input[type="text"]::placeholder {
+    color: var(--cor-secundaria);
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="data"]:invalid,
+input[type="time"]:invalid,
+input[type="people"]:invalid{
+    background-color: rgb(228, 176, 7);
+}
+
+input[type="text"]:disabled {
+    color: var(--cor-secundaria);
+}
+
+.conteudo-rodape{
+    background-image: url("../rodape/fundo.png");
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
