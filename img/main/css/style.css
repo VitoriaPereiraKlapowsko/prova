@@ -232,5 +232,5 @@ input[type="text"]:disabled {
     background-image: url("../rodape/fundo.png");
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100% ;
 }
